@@ -3,7 +3,7 @@ import java.text.*;
 import java.sql.*;
 
 public class Aufgabe {
-a
+
 	private String aufgabentext;
     private GregorianCalender dautumErstellung;
 
