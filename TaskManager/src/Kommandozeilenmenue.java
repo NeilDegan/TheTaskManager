@@ -8,7 +8,7 @@ public class Kommandozeilenmenue {
 		this.scan = new Scanner(System.in);
 	}
 
-	public void MenüAnzeigen() {
+	public void MenueAnzeigen() {
 		System.out.println("MENÜ");
 		System.out.println("1) AUSGABE");
 		System.out.println("2) RECHNEN");
@@ -18,7 +18,7 @@ public class Kommandozeilenmenue {
 	public void start() {
 		String s = "-";
 		while (!s.equals("3")) {
-			MenüAnzeigen();
+			MenueAnzeigen();
 			s = scan.nextLine();
 			switch(s)
 			{
